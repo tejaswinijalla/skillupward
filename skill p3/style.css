@@ -1,0 +1,312 @@
+/* Basic Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    float: left;
+    height: 200%;
+    width: 200%;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    height: 100%;
+    width: 98%;
+    background-color: rgba(70, 70, 70, 0.849);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img.jpg);
+    background-size: cover; /* Cover the entire viewport, maintaining aspect ratio */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    margin: 2%; /
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: #d2c1c7;
+    color: #f6f0f0;
+    padding: 1px;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 1px;
+    display: flex;
+    justify-content: right;
+    
+   
+}
+
+nav ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #070707;
+    text-decoration: none;
+    padding: 1px ;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #ffd700; /* Gold color */
+    border-radius: 4px;
+}
+
+nav.scrolled {
+    background-color:#d2c1c7;
+}
+.navbar p {
+    color: rgb(186, 108, 153);
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #070707;
+
+}
+main {
+    margin-top: 1.6%;
+    padding-top: 70px; /* Adjust based on header height */
+}
+
+section {
+    padding: 20px;
+    height: 100vh; /* For demonstration purposes */
+}
+
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.home-content {
+    flex: 1;
+    max-width: 500px;
+    color: aliceblue;
+}
+
+.home-content h1 {
+    margin-top: 10%;
+
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(202, 89, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: aliceblue;
+    margin-top: 20%;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color:rgb(123, 60, 60);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(154, 97, 97);
+}
+
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+.menu-section {
+    width: 95%;
+    height: 95%;
+    color: white;
+
+    padding: 40px 20px;
+
+}
+
+.menu-section h1 {
+   
+    color: rgb(202, 89, 20);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.menu-category h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: rgb(202, 89, 20);
+    font-family: cursive;
+}
+
+.menu-item {
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #666;
+    color: white;
+
+}
+
+.price {
+    font-weight: bold;
+    color: brown;
+}
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(202, 89, 20);
+    height: 50%;
+
+}
+
+.about-content {
+    max-width: 800px;
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.about-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(202, 89, 20);
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: white;
+   margin-bottom: 20px;
+}
+.contact-section {
+    padding: 40px 20px;
+    color: white;
+
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(202, 89, 20);
+
+}
+
+.contact-info {
+    
+  
+  
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: rgb(202, 89, 20);
+}
+
+.info-item p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}

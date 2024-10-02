@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <p>COOL CAFE</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <h1>Welcome to Coffee Cafe</h1>
+                <p>Experience the finest coffee and delectable pastries in a cozy, inviting atmosphere.<br>
+                Join us for a relaxing cup of coffee or tea, and enjoy our selection of freshly baked goods and light meals.</p>
+                <a href="#menu" class="btn">Explore Our Menu</a>
+        </section>
+        <section id="menu" class="menu-section">
+            <h1>Our Menu</h1>
+            <div class="menu-category">
+                <h2>Coffee</h2>
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>A strong and rich coffee brewed by forcing hot water through finely-ground coffee beans.</p>
+                    <span class="price">$2.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso mixed with steamed milk and topped with foamed milk.</p>
+                    <span class="price">$3.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>Espresso combined with a large amount of steamed milk and a thin layer of foam.</p>
+                    <span class="price">$3.75</span>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h2>Pastries</h2>
+                <div class="menu-item">
+                    <h3>Croissant</h3>
+                    <p>A buttery, flaky pastry, perfect for a morning snack or light meal.</p>
+                    <span class="price">$2.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich and moist chocolate cake topped with a decadent chocolate frosting.</p>
+                    <span class="price">$4.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Blueberry Muffin</h3>
+                    <p>A sweet muffin filled with fresh blueberries and a crumbly sugar topping.</p>
+                    <span class="price">$2.50</span>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h2>Light Meals</h2>
+                <div class="menu-item">
+                    <h3>Chicken Salad</h3>
+                    <p>A fresh salad with grilled chicken, mixed greens, and a light vinaigrette.</p>
+                    <span class="price">$5.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Veggie Wrap</h3>
+                    <p>A wrap filled with fresh vegetables, hummus, and feta cheese.</p>
+                    <span class="price">$4.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Soup of the Day</h3>
+                    <p>A warm and comforting soup made with seasonal ingredients.</p>
+                    <span class="price">$3.75</span>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h1>About Us</h1>
+                <p>Welcome to Coffee Cafe, where passion meets perfection in every cup. Established in [Year], our cafe has become a beloved spot in the community, known for its warm ambiance and exceptional coffee.</p>
+                <p>Our mission is to provide a comfortable space where people can gather, relax, and enjoy high-quality coffee and pastries. We pride ourselves on using the finest ingredients and employing skilled baristas to ensure every visit is memorable.</p>
+                <p>At Coffee Cafe, we believe in creating connections. Whether you're catching up with friends, meeting a colleague, or just enjoying a moment of solitude, we strive to make each visit special.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h2>Address</h2>
+                    <p>kothapet, piller No:1983,Hyderabad</p>
+                </div>
+                <div class="info-item">
+                    <h2>Phone</h2>
+                    <p>9479235028</p>
+                </div>
+                <div class="info-item">
+                    <h2>Email</h2>
+                    <p>coolcafe@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="mailto:contact@coffeecafe.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.getElementById('navbar');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
