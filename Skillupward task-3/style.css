@@ -1,0 +1,252 @@
+body{
+    height: 100%;
+    width: 98%;
+    background-color: rgba(70, 70, 70, 0.849);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img.jpg);
+    background-size: cover; /* Cover the entire viewport, maintaining aspect ratio */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    margin: 2%; /* Remove default margin to ensure full coverage */
+ 
+
+
+}
+h1{
+    text-decoration: solid;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: peachpuff;
+    padding: 10px 0;
+   margin: 2% 0% 0% 15%;
+  }
+ 
+  .nav-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    color: peachpuff;
+
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin:  15px;
+  }
+  
+  .nav-link {
+    color: peachpuff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: rgb(240, 149, 240); /* Tomato color on hover */
+  }
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: antiquewhite;
+    position: relative;
+}
+header {
+    background: #6a715897(154, 151, 139);
+    color: #0c0b0b;
+    padding: 1
+}
+.right-container{
+    
+    width: 30;
+}
+.img-div{
+    margin: 16% 10% 0% 0%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%; /* Adjust the width as needed */
+        
+        object-fit: cover; /* Ensure the image covers the container */
+        z-index: -1; /* Position the image behind the text */
+    }
+
+
+
+
+
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-div1{
+    background-color: transparent;
+   
+  color: aliceblue ;
+  font-size: large;
+    
+ 
+    text-align: center;
+    
+    
+}
+.container-div1 h1{
+    margin: 4.5% 65% 0% 0%;
+    color: rgb(209, 209, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container3{
+    float: left;
+    border: 1px;
+    text-align: center;
+    margin: 5% 2% 3% 2%;
+}
+
+.heading-div{
+    float: center;
+    width: 100;
+    text-align: left;
+    margin: 8% 4% 4% 6%;
+    padding: 0.5%;
+    font-size: large;
+    margin-right: 5%;
+ 
+    color: azure;
+}
+h2 {
+    text-align: initial;
+    font-size: larger;
+    color: rgb(195, 172, 192);
+    font-size: x-large;
+    font-style: italic;
+}
+footer{
+    text-align: end;
+    margin-top: 30% ;
+    margin-left: 30;
+}
+.container{
+    color: aliceblue;
+    margin: 0% 0% 0% 3%;
+    
+}
+.container a {
+    color: rgb(200, 59, 83);
+    margin: 1% 0% 0% 4%;
+}
+.container  button {
+    color: rgb(154, 48, 66);
+    margin: 2% 0% 0% 4%;
+}
+
+.container4{
+    margin: 2% 0% 0% 2%;
+    padding: 2%;
+    color:white;
+}
+.container5{
+    margin: 2% 0% 0% 1.3%;
+    padding: 2%;
+    font-size: large;
+    color: white;
+    width: 100;
+}
+.about-edu{
+    margin: 0% 0% 0% 2%;
+    padding: 2%;
+    font-size: large;
+    color: white;
+    width: 100;
+}
+h3{
+    text-align: initial;
+    font-size: larger;
+    color: rgb(195, 172, 192);
+    font-size: x-large;
+    font-style: italic;
+}
+.project a{
+    box-sizing: border-box;
+    margin: 2% 0% 0% 20%;
+}
+main {
+    padding: 20px;
+    margin-top: 50px; /* Adjust for fixed header */
+  }
+  
+  /* Contact Info Section */
+  #contact-info {
+    margin-bottom: 40px;
+  }
+  
+  #contact-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    
+  
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .contact-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form Section */
+  #contact-form {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
