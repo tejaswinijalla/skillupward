@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 98%;
+    background-color: rgba(70, 70, 70, 0.849);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./imh.jpg);
+    background-size: cover; /* Cover the entire viewport, maintaining aspect ratio */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    margin: 2%; /
+    
+    
+
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10% 0% 0% 38%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
